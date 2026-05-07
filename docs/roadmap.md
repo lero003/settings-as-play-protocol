@@ -27,7 +27,7 @@ This is a draft roadmap for SaPP.
 - [x] Add bad-example / improved-example pairs
 - [x] Add optional YAML front matter convention
 - [x] Add lightweight docs CI for markdown style, links, image paths, and trailing spaces
-- [ ] Publish v0.4 release tag
+- [x] Publish v0.4 release tag
 
 Done when:
 

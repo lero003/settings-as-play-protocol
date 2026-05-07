@@ -50,10 +50,10 @@ Release notes should point to:
 - [x] License / Permission guidance is present.
 - [x] GitHub issue and PR templates exist.
 - [x] Lightweight docs CI exists.
-- [ ] GitHub About description, website, and topics are configured.
-- [ ] `v0.4-public-draft` GitHub Release exists.
-- [ ] `git diff --check` passes.
-- [ ] `python scripts/check-docs.py` passes.
+- [x] GitHub About description, website, and topics are configured.
+- [x] `v0.4-public-draft` GitHub Release exists.
+- [x] `git diff --check` passes.
+- [x] `python scripts/check-docs.py` passes.
 
 ## Notes For AI Assistants
 
