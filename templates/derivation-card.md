@@ -4,6 +4,10 @@
 
 <!-- 派生元の設定名、作者、リンク。 -->
 
+## Derivation Type
+
+<!-- remix / adaptation / translation / expansion / medium-shift / inspired-by / fork / private variant など。 -->
+
 ## New Name
 
 <!-- 派生後の設定名。 -->
@@ -37,6 +41,8 @@ Original by:
 Derived by:
 
 Legal License / Permission:
+
+Canonical Status:
 
 Cultural Agreement: SaPP Commons Agreement
 

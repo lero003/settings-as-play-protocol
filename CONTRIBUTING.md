@@ -33,6 +33,18 @@ When suggesting changes, please describe:
 - Which file or template is affected
 - Whether the change is wording, structure, example content, or policy
 
+## Pull Request Checklist
+
+For examples, templates, and policy wording, check the relevant items before submitting:
+
+- You have the right to share the setting or example.
+- Public Range is clear.
+- Non-public Range is clear.
+- Original source and author are credited where practical.
+- Legal License / Permission is written.
+- Cultural Agreement is not confused with legal license.
+- AI-generated assets are marked as canonical or non-canonical.
+
 ## Legal Note
 
 By contributing, you agree that your contribution may be included in this repository under the repository license unless otherwise discussed.

@@ -13,6 +13,16 @@ It is not a competitive analysis yet. The goal is to notice useful differences a
 - Note/SNS publishing flows
 - Creative Commons practices
 
+## Lightweight Difference Table
+
+| Area | What it is good at | What SaPP borrows | What SaPP does not do |
+|---|---|---|---|
+| Illustration / fiction platforms | Publishing finished works and finding creators | Links back to works and authors | Become a posting platform |
+| note / SNS | Lightweight publication and participation | Easy sharing outside GitHub | Lock people into one format or service |
+| GitHub / Wiki | History, diffs, source documents | Lineage and version awareness | Require developer workflows |
+| Prompt sharing sites | Reusable prompt patterns | Practical reuse and iteration | Become a prompt marketplace |
+| Creative Commons | Legal license vocabulary | Attribution culture and license separation | Turn SaPP itself into a legal license |
+
 ## Current Notes
 
 - SaPP is not a posting platform.
