@@ -42,7 +42,7 @@ Settings as Play Protocol v0.4 企画書内のサンプル。
 
 ### Original By
 
-SaPP draft author
+Hazakura Lab / 葉桜ラボ
 
 ### Public Range
 
@@ -52,9 +52,13 @@ SaPP draft author
 
 非公開素材は含まれていません。
 
-### License / Permission
+### Legal License / Permission
 
-CC BY 4.0 + SaPP Commons Agreement
+CC BY 4.0
+
+### Cultural Agreement
+
+SaPP Commons Agreement
 
 ### Credit Notes
 

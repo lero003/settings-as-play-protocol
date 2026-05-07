@@ -56,9 +56,13 @@
 
 元企画の全設定、物語の核心、未公開キャラクター、未公開地名、結末、ゲーム構造の詳細は公開範囲に含みません。
 
-### License / Permission
+### Legal License / Permission
 
-CC BY 4.0 + SaPP Commons Agreement
+CC BY 4.0
+
+### Cultural Agreement
+
+SaPP Commons Agreement
 
 ### Credit Notes
 

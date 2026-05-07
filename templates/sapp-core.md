@@ -46,11 +46,19 @@
 
 <!-- 自由に使える素材として扱ってほしくない範囲。 -->
 
-### License / Permission
+### Legal License / Permission
 
-CC BY 4.0 + SaPP Commons Agreement
+<!-- この設定カードに適用する法的な許諾条件を書きます。
+例: CC BY 4.0 / CC BY-NC 4.0 / All rights reserved / 個別許諾 / 未定 など。
+SaPP を使うこと自体は、特定のライセンスを強制しません。 -->
 
-<!-- 必要に応じて、設定カードごとの追加条件や例外を書きます。SaPP Commons Agreement だけを法的許諾として扱わないでください。 -->
+For this card:
+
+### Cultural Agreement
+
+SaPP Commons Agreement
+
+<!-- これは文化的な作法であり、法的ライセンスではありません。 -->
 
 ### Credit Notes
 

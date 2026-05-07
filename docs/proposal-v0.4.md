@@ -1,5 +1,7 @@
 # 企画書 v0.4：Settings as Play Protocol
 
+> Publication note: この文書は SaPP v0.4 の元企画書です。現在のリポジトリ実体では、法的ライセンスを CC BY 4.0、文化的作法を SaPP Commons Agreement として分離しています。テンプレートは、SaPP 利用者に特定ライセンスを強制しない形へ調整されています。
+
 **日本語仮称：設定で遊ぶプロトコル**
 **略称候補：SaPP / SAPP**
 **旧仮称・通称候補：設定コモンズ / Settings as Play / 遊び方コモンズ**
@@ -719,10 +721,11 @@ GitHub、アーカイブ、作品設定の継承向け。
 ```md
 ## Credit
 
-Based on: [元設定名](リンク)
+Based on: [元設定名](https://example.com/source)
 Original by: 作者名
 Derived by: 派生者名
-License / Agreement: CC BY 4.0 + SaPP Commons Agreement など
+Legal License / Permission: CC BY 4.0 / CC BY-NC 4.0 / All rights reserved / 個別許諾 / 未定 など
+Cultural Agreement: SaPP Commons Agreement
 Notes: 由来を可能な範囲で残してください
 ```
 
@@ -956,8 +959,9 @@ SaPP Commons Agreementは、法的ライセンスそのものではない。
 
 初期候補としては、次のような組み合わせが考えられる。
 
-- マニフェスト・テンプレート：CC BY 4.0 または CC0
-- サンプル設定：CC BY 4.0 + SaPP Commons Agreement[^cc-by]
+- このリポジトリの公開物：CC BY 4.0[^cc-by]
+- SaPPを使う外部設定：設定カードごとに法的ライセンスを明記
+- 文化的作法：SaPP Commons Agreement
 - 未公開・保留領域：ライセンス対象外
 - コードが入る場合：MIT Licenseなど
 
