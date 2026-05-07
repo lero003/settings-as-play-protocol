@@ -8,6 +8,7 @@ Post-v0.4 main branch work.
 - Clarify repository license compatibility for contributed examples
 - Clarify SaPP Mini credit / permission wording
 - Add tiny example index and front matter delimiter check
+- Update docs workflow actions for the Node.js 24 runner transition
 
 ## v0.4 public draft - 2026-05-07
 
