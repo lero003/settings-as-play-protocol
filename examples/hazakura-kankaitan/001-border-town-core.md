@@ -46,7 +46,7 @@
 
 ### Original By
 
-葉桜ラボ
+Hazakura Lab / 葉桜ラボ
 
 ### Public Range
 

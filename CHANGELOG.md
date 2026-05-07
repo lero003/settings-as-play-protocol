@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Refine README Why SaPP wording and placement
+- Improve attribution consistency in examples
+- Clarify derivation-map usage
+- Clarify related-work notes
+
 ## v0.4 public draft - 2026-05-07
 
 Initial public draft.
@@ -12,10 +19,3 @@ Initial public draft.
 - Added optional modules
 - Added sample settings
 - Added Hazakura Kankaitan sample visual reference
-
-## Unreleased
-
-- Improve wording based on public draft feedback
-- Add more examples
-- Clarify derivation-map usage
-- Clarify related-work notes
