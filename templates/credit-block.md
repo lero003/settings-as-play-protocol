@@ -6,6 +6,6 @@ Original by: Creator Name
 
 Derived by: Derivative Creator Name
 
-License / Agreement: License name or permission note + SaPP Commons Agreement
+License / Agreement: CC BY 4.0 + SaPP Commons Agreement
 
 Notes: Keep the source setting name and link as much as practical.

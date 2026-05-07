@@ -48,7 +48,9 @@
 
 ### License / Permission
 
-<!-- 必要に応じて、法的ライセンスや許諾条件を書きます。SaPP Commons Agreement だけを法的許諾として扱わないでください。 -->
+CC BY 4.0 + SaPP Commons Agreement
+
+<!-- 必要に応じて、設定カードごとの追加条件や例外を書きます。SaPP Commons Agreement だけを法的許諾として扱わないでください。 -->
 
 ### Credit Notes
 

@@ -54,7 +54,7 @@ SaPP draft author
 
 ### License / Permission
 
-ドラフト作例です。公開時に必要であれば正式なライセンスを選んでください。
+CC BY 4.0 + SaPP Commons Agreement
 
 ### Credit Notes
 

@@ -36,6 +36,6 @@ Original by:
 
 Derived by:
 
-License / Agreement:
+License / Agreement: CC BY 4.0 + SaPP Commons Agreement
 
 Notes:

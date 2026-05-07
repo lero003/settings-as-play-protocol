@@ -58,7 +58,7 @@
 
 ### License / Permission
 
-正式なライセンスは未選定です。法的な利用条件が必要な場合は、別途ライセンスまたは許諾条件を確認してください。
+CC BY 4.0 + SaPP Commons Agreement
 
 ### Credit Notes
 
