@@ -120,6 +120,7 @@ SaPP は、設定カードのライセンスを一律に強制するものでは
 ## Attribution
 
 - Canonical author name: Hazakura Lab / 葉桜ラボ
+- Website: [hazakura.dev](https://hazakura.dev)
 - Project name: Settings as Play Protocol
 - Short credit: SaPP by Hazakura Lab
 

@@ -27,6 +27,7 @@ Please keep attribution as much as practical:
 ```text
 Based on "Settings as Play Protocol" by Hazakura Lab, licensed under CC BY 4.0.
 Source: https://github.com/lero003/settings-as-play-protocol
+Website: https://hazakura.dev
 Changes: [describe changes, if any]
 ```
 
