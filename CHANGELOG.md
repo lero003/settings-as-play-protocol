@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add minimal, character-focused, and image-generation-focused examples
 - Replace Hazakura Kankaitan sample image with a poster generated from public sample cards
 - Refine README Why SaPP wording and placement
 - Improve attribution consistency in examples
