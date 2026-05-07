@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-Post-v0.4 main branch work.
+- Prepare v0.5 public draft from first-use feedback
+
+## v0.4.1 docs polish - 2026-05-08
+
+Post-v0.4 documentation hardening snapshot.
 
 - Align README, roadmap, and changelog status wording after the public draft release
 - Clarify repository license compatibility for contributed examples

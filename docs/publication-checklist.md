@@ -6,7 +6,7 @@ Use this checklist for public-facing repository work that may not be part of a n
 
 - Date: 2026-05-08
 - Verified by: Hazakura Lab
-- Scope: GitHub About, topics, v0.4 public draft release, docs CI
+- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, docs CI
 
 ## GitHub About
 
@@ -30,13 +30,14 @@ Recommended topics:
 - derivation
 - creative-protocol
 
-## v0.4 Public Draft Release
+## Release Tags
 
-Create a GitHub Release when the public draft is ready to be treated as a named snapshot.
+Create a GitHub Release when the public draft or docs snapshot is ready to be treated as a named version.
 
-Suggested tag:
+Current tags:
 
-> v0.4-public-draft
+- `v0.4-public-draft`
+- `v0.4.1-docs-polish`
 
 Release notes should point to:
 
@@ -60,6 +61,7 @@ Use this as a manual release-prep checklist. Checked items record the last verif
 - [x] Lightweight docs CI exists.
 - [x] GitHub About description, website, and topics are configured.
 - [x] `v0.4-public-draft` GitHub Release exists.
+- [x] `v0.4.1-docs-polish` GitHub Release exists.
 - [x] `git diff --check` passes.
 - [x] `python scripts/check-docs.py` passes.
 

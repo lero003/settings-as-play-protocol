@@ -14,15 +14,26 @@ Status: released as [v0.4-public-draft](https://github.com/lero003/settings-as-p
 - [x] Separate legal license and cultural agreement
 - [x] Collect feedback
 
+## v0.4.1 Docs Polish
+
+Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4.1-docs-polish).
+
+- [x] Align release, main, roadmap, and changelog status wording
+- [x] Clarify repository license compatibility for contributed examples
+- [x] Clarify SaPP Mini credit / permission wording
+- [x] Add tiny example index
+- [x] Add front matter delimiter check
+- [x] Update docs workflow actions for the Node.js 24 runner transition
+
 ## Next
 
 - Prepare v0.5 public draft from first-use feedback
 - Review optional front matter after a few real cards use it
-- Keep post-v0.4 docs hardening small and release-tag immutable
+- Keep released tags immutable
 
 ## v0.5 Candidate Goals
 
-Status: candidate backlog, not a released v0.5 specification.
+Status: foundation mostly prepared; v0.5 should wait for first-use feedback, not only repo polish.
 
 - [x] Define Minimum SaPP Card
 - [x] Add issue and PR templates

@@ -12,8 +12,8 @@ It is not a platform, marketplace, or legal license. It is a small format for ke
 
 ## ステータス
 
-- Latest release: [v0.4-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4-public-draft)
-- Current main: post-v0.4 documentation hardening
+- Latest release: [v0.4.1-docs-polish](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4.1-docs-polish)
+- Current main: v0.4.1 docs polish
 - Next target: v0.5 public draft
 - Scope: 提言、テンプレート、小さな作例
 - Stability: 名称、項目、モジュール、運用形式は変更される可能性があります
