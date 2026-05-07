@@ -17,4 +17,4 @@ Variables:
 - 車内の規則
 - 到着地の代償
 
-Credit: SaPP tiny sample by Hazakura Lab
+Credit / Permission: SaPP tiny sample by Hazakura Lab, CC BY 4.0

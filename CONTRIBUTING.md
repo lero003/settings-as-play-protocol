@@ -45,6 +45,12 @@ For examples, templates, and policy wording, check the relevant items before sub
 - Cultural Agreement is not confused with legal license.
 - AI-generated assets are marked as canonical or non-canonical.
 
+## Repository License Compatibility
+
+Examples merged into this repository should be compatible with the repository license, CC BY 4.0, unless a different license is explicitly discussed and clearly marked.
+
+If an example uses CC BY-NC, All rights reserved, 個別許諾, or another non-CC-BY permission, prefer linking to it as an external SaPP card rather than copying it into this repository.
+
 ## Legal Note
 
 By contributing, you agree that your contribution may be included in this repository under the repository license unless otherwise discussed.

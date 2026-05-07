@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+Post-v0.4 main branch work.
+
+- Align README, roadmap, and changelog status wording after the public draft release
+- Clarify repository license compatibility for contributed examples
+- Clarify SaPP Mini credit / permission wording
+- Add tiny example index and front matter delimiter check
+
+## v0.4 public draft - 2026-05-07
+
+Public draft snapshot.
+
 - Add reader-oriented README entry paths and Minimum SaPP Card guidance
 - Add SaPP Mini template, optional front matter notes, glossary, and license / permission guide
 - Add GitHub issue and pull request templates
@@ -15,11 +26,6 @@
 - Improve attribution consistency in examples
 - Clarify derivation-map usage
 - Clarify related-work notes
-
-## v0.4 public draft - 2026-05-07
-
-Initial public draft.
-
 - Added Manifesto
 - Added SaPP Core
 - Added Commons Agreement

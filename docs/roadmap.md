@@ -4,20 +4,25 @@ This is a draft roadmap for SaPP.
 
 ## v0.4 Public Draft
 
-- Publish manifesto
-- Publish SaPP Core
-- Publish templates
-- Publish optional modules
-- Publish small examples
-- Separate legal license and cultural agreement
-- Collect feedback
+Status: released as [v0.4-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4-public-draft).
+
+- [x] Publish manifesto
+- [x] Publish SaPP Core
+- [x] Publish templates
+- [x] Publish optional modules
+- [x] Publish small examples
+- [x] Separate legal license and cultural agreement
+- [x] Collect feedback
 
 ## Next
 
-- Prepare v0.4 public draft release
+- Prepare v0.5 public draft from first-use feedback
 - Review optional front matter after a few real cards use it
+- Keep post-v0.4 docs hardening small and release-tag immutable
 
 ## v0.5 Candidate Goals
+
+Status: candidate backlog, not a released v0.5 specification.
 
 - [x] Define Minimum SaPP Card
 - [x] Add issue and PR templates

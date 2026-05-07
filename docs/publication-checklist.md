@@ -2,6 +2,12 @@
 
 Use this checklist for public-facing repository work that may not be part of a normal file edit.
 
+## Last Verified
+
+- Date: 2026-05-08
+- Verified by: Hazakura Lab
+- Scope: GitHub About, topics, v0.4 public draft release, docs CI
+
 ## GitHub About
 
 Recommended description:
@@ -42,6 +48,8 @@ Release notes should point to:
 - examples/minimal/one-screen-setting.md
 
 ## Before Publishing
+
+Use this as a manual release-prep checklist. Checked items record the last verification above; re-check them before a new release.
 
 - [x] README explains what SaPP is and is not.
 - [x] Minimum SaPP Card is visible.

@@ -17,4 +17,4 @@ Variables:
 - 聞く人物
 - 媒体
 
-Credit: SaPP tiny sample by Hazakura Lab
+Credit / Permission: SaPP tiny sample by Hazakura Lab, CC BY 4.0

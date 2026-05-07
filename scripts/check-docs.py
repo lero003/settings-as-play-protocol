@@ -60,6 +60,13 @@ def check_heading_spacing(path: Path, text: str, errors: list[str]) -> None:
             errors.append(f"{path.relative_to(ROOT)}:{index}: heading should use a space after #")
 
 
+def check_front_matter_delimiters(path: Path, text: str, errors: list[str]) -> None:
+    if not text.startswith("---\n"):
+        return
+    if text.find("\n---\n", 4) == -1:
+        errors.append(f"{path.relative_to(ROOT)}: missing closing front matter delimiter")
+
+
 def main() -> int:
     errors: list[str] = []
     for path in iter_markdown_files():
@@ -68,6 +75,7 @@ def main() -> int:
         check_local_links(path, text, errors)
         check_local_images(path, text, errors)
         check_heading_spacing(path, text, errors)
+        check_front_matter_delimiters(path, text, errors)
 
     if errors:
         print("\n".join(errors))

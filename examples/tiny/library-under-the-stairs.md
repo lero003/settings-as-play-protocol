@@ -17,4 +17,4 @@ Variables:
 - 店主の姿
 - 返却期限
 
-Credit: SaPP tiny sample by Hazakura Lab
+Credit / Permission: SaPP tiny sample by Hazakura Lab, CC BY 4.0

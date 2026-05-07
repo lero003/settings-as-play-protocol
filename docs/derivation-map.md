@@ -1,6 +1,6 @@
 # Derivation Map
 
-Derivation Map is a lightweight way to show how settings branch from one another.
+Derivation Map is a lightweight way to show how settings branch from one another. It may also show card composition when a sample is split into Core and Optional Modules, but derivative branches and composition links should be labeled differently.
 
 It is not required to use SaPP.
 
@@ -30,9 +30,9 @@ graph TD
   C["Image Prompt Variant"]
   D["Short Story Variant"]
 
-  A --> B
-  A --> C
-  A --> D
+  A -->|derives| B
+  A -->|derives| C
+  A -->|derives| D
 ```
 
 ## Hazakura Kankaitan Sample Map
@@ -45,14 +45,16 @@ graph TD
   D["Character Module: 猫守白羽"]
   E["Poster Visual Reference"]
 
-  A --> B
-  A --> C
-  A --> D
-  B --> E
-  C --> E
-  D --> E
+  A -->|extends| B
+  A -->|extends| C
+  A -->|extends| D
+  B -->|informs| E
+  C -->|informs| E
+  D -->|informs| E
 ```
 
 This map uses only the public sample cards in [examples/hazakura-kankaitan](../examples/hazakura-kankaitan/README.md). It does not imply that unpublished source material is available for reuse.
+
+Use `derives` when a new setting or card changes a source. Use `extends` when an optional module adds detail to the same sample. Use `informs` when a card guides an asset, prompt, or reference.
 
 For an actual derivative, keep the map small and pair it with a [Derivation Card](../templates/derivation-card.md).

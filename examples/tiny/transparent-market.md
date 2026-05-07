@@ -17,4 +17,4 @@ Variables:
 - 支払い方法
 - 買った後の影響
 
-Credit: SaPP tiny sample by Hazakura Lab
+Credit / Permission: SaPP tiny sample by Hazakura Lab, CC BY 4.0

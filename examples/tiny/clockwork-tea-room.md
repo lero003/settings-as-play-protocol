@@ -17,4 +17,4 @@ Variables:
 - 会話の目的
 - 戻った後の変化
 
-Credit: SaPP tiny sample by Hazakura Lab
+Credit / Permission: SaPP tiny sample by Hazakura Lab, CC BY 4.0

@@ -11,6 +11,15 @@ labels: example
 ## Which template or module does it demonstrate?
 
 
+## Derived From
+
+
+## Original By
+
+
+## Canonical Status
+
+
 ## Public Range
 
 
@@ -19,5 +28,9 @@ labels: example
 
 ## Legal License / Permission
 
+
+## Cultural Agreement
+
+SaPP Commons Agreement
 
 ## Notes
