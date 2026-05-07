@@ -1,6 +1,6 @@
 # Image Generation Module: 葉桜環界譚 / 忘却の市街
 
-![葉桜環界譚 サンプル画像](assets/hazakura-kankaitan-nekomimi-sample.png)
+![葉桜環界譚 サンプル画像](assets/hazakura-kankaitan-sapp-poster-sample.png)
 
 ## Visual Keywords
 

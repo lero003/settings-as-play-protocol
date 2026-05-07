@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Replace Hazakura Kankaitan sample image with a poster generated from public sample cards
 - Refine README Why SaPP wording and placement
 - Improve attribution consistency in examples
 - Clarify derivation-map usage
