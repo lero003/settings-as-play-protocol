@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.5 AI-first public draft - 2026-05-08
 
 - Redefine SaPP as an AI-first specification format for creative settings
 - Add canonical AI-readable Skill Documents under `spec/skills/`

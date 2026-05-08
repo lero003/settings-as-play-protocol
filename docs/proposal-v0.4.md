@@ -1,5 +1,13 @@
 # 企画書 v0.4：Settings as Play Protocol
 
+> Historical note:
+> This document is a v0.4 proposal and is no longer the canonical SaPP specification.
+> The canonical specification is now defined by the AI-readable Skill Documents under `spec/skills/`.
+>
+> 履歴メモ:
+> この文書は v0.4 時点の企画書であり、現在の正本仕様ではありません。
+> 現在の SaPP 正本仕様は `spec/skills/` 以下の AI-readable Skill Documents です。
+>
 > Publication note: この文書は SaPP v0.4 の元企画書であり、現在の正本仕様ではありません。現在の SaPP は AI-first な仕様書フォーマットとして再定義され、正本仕様は `spec/skills/` の AI-readable Skill Documents に置かれています。法的ライセンスは CC BY 4.0、文化的作法は SaPP Commons Agreement として分離しています。テンプレートは、SaPP 利用者に特定ライセンスを強制しない形へ調整されています。
 
 **日本語仮称：設定で遊ぶプロトコル**

@@ -27,15 +27,15 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 
 ## Next
 
-- Prepare v0.5 AI-first public draft
-- Treat Skill Documents under `spec/skills/` as the canonical specification source
-- Keep templates, examples, and guides as supporting human-facing materials
+- Collect first-use feedback on the AI-first Skill Documents
+- Validate the Skill Documents against real SaPP cards and derivation examples
+- Decide whether optional JSON Schema or a CLI validator is worth generating from the Skill Documents
 - Review optional front matter after a few real cards use it
 - Keep released tags immutable
 
-## v0.5 Candidate Goals
+## v0.5 AI-first Public Draft
 
-Status: AI-first direction selected; v0.5 should make the Skill Documents usable as the canonical SaPP specification.
+Status: released as [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft).
 
 ### AI-first Canonical Specification
 

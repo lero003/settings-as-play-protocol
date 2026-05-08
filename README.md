@@ -16,9 +16,9 @@ The canonical specification is defined as AI-readable Skill Documents. Human-fac
 
 ## ステータス
 
-- Latest release: [v0.4.1-docs-polish](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4.1-docs-polish)
-- Current main: v0.5 AI-first draft in progress
-- Next target: v0.5 AI-first public draft
+- Latest release: [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft)
+- Current main: post-v0.5 development
+- Next target: v0.5.x feedback polish or v0.6
 - Scope: AI-readable Skill Documents、テンプレート、小さな作例
 - Stability: 名称、項目、モジュール、運用形式は変更される可能性があります
 - License: [CC BY 4.0](LICENSE.md)
