@@ -6,7 +6,7 @@ Use this checklist for public-facing repository work that may not be part of a n
 
 - Date: 2026-05-08
 - Verified by: Hazakura Lab
-- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first public draft prep, docs CI
+- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first public draft tag, docs CI
 
 ## GitHub About
 
@@ -77,7 +77,7 @@ Use this as a manual release-prep checklist. Checked items record the last verif
 
 ## v0.5 Release Readiness Decision
 
-Decision: ready to tag as `v0.5-ai-first-public-draft`.
+Decision: `v0.5-ai-first-public-draft` is tagged and ready for an optional GitHub Release when explicitly requested.
 
 Rationale:
 
@@ -90,6 +90,7 @@ Rationale:
 Release boundary:
 
 - Do not move the existing `v0.4-public-draft` or `v0.4.1-docs-polish` tags.
+- Do not move the existing `v0.5-ai-first-public-draft` tag.
 - Do not publish a GitHub Release unless the user explicitly asks for that public action.
 
 ## Notes For AI Assistants

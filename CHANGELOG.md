@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Clarify post-v0.5 publication checklist state after tagging
+
 ## v0.5 AI-first public draft - 2026-05-08
 
 - Redefine SaPP as an AI-first specification format for creative settings
