@@ -1,5 +1,7 @@
 # Image Generation Module
 
+> Human-facing authoring aid. The canonical module specification is `spec/skills/modules/image-generation.skill.md`.
+
 AI画像生成やビジュアル探索に使うときのモジュールです。
 
 ## Visual Keywords

@@ -1,5 +1,7 @@
 # Worldbuilding Module
 
+> Human-facing authoring aid. The canonical module specification is `spec/skills/modules/worldbuilding.skill.md`.
+
 場所、社会、歴史、空気感が必要なときに使うモジュールです。
 
 ## Place

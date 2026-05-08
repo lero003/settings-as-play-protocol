@@ -2,11 +2,14 @@
 
 Thank you for your interest in Settings as Play Protocol.
 
-SaPP is currently a **v0.4 public draft**. Names, fields, modules, examples, and operating style may change.
+SaPP is currently preparing a **v0.5 AI-first public draft**. Names, fields, modules, examples, and operating style may change.
+
+The canonical specification is defined in [SaPP Skill Documents](spec/skills/README.md). Templates, examples, and guides are supporting materials for authors and contributors.
 
 ## Good First Contributions
 
 - Improve wording in templates
+- Improve canonical Skill Documents
 - Add small examples
 - Report confusing terms
 - Suggest optional modules

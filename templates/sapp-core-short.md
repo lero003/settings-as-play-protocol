@@ -1,5 +1,7 @@
 # SaPP Mini
 
+> Authoring template. The canonical SaPP Core specification is `spec/skills/sapp-core.skill.md`.
+
 Name:
 
 One-liner:

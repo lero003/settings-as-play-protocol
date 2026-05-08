@@ -2,7 +2,10 @@
 
 ## Unreleased
 
-- Prepare v0.5 public draft from first-use feedback
+- Redefine SaPP as an AI-first specification format for creative settings
+- Add canonical AI-readable Skill Documents under `spec/skills/`
+- Clarify templates, examples, docs, schemas, and validators as supporting artifacts
+- Mark the v0.4 proposal as historical rather than canonical
 
 ## v0.4.1 docs polish - 2026-05-08
 

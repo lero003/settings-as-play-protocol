@@ -27,13 +27,36 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 
 ## Next
 
-- Prepare v0.5 public draft from first-use feedback
+- Prepare v0.5 AI-first public draft
+- Treat Skill Documents under `spec/skills/` as the canonical specification source
+- Keep templates, examples, and guides as supporting human-facing materials
 - Review optional front matter after a few real cards use it
 - Keep released tags immutable
 
 ## v0.5 Candidate Goals
 
-Status: foundation mostly prepared; v0.5 should wait for first-use feedback, not only repo polish.
+Status: AI-first direction selected; v0.5 should make the Skill Documents usable as the canonical SaPP specification.
+
+### AI-first Canonical Specification
+
+- [x] Define SaPP as an AI-first specification format
+- [x] Add canonical SaPP Core Skill Document
+- [x] Add canonical SaPP Validator Skill Document
+- [x] Add canonical SaPP Derivation Skill Document
+- [x] Add canonical module Skill Documents
+- [x] Clarify that templates, examples, docs, schemas, and validators are supporting artifacts
+- [x] Smoke-check SaPP Validator Skill against `examples/minimal/one-screen-setting.md`
+- [ ] Validate the Skill Documents against real SaPP cards and derivation examples
+- [ ] Decide whether optional JSON Schema or a CLI validator is worth generating from the Skill Documents
+
+Done when:
+
+- An AI assistant can read the Skill Documents and produce a usable SaPP Core without relying on README prose.
+- An AI assistant can validate a SaPP Core and return `Valid`, `Valid with warnings`, or `Invalid` with actionable issues.
+- A human reader can audit the same Skill Documents without needing implementation-specific tooling.
+- Templates and examples do not contradict the canonical Skill Documents.
+
+### Foundation Already Prepared
 
 - [x] Define Minimum SaPP Card
 - [x] Add issue and PR templates
@@ -50,7 +73,7 @@ Done when:
 - A new user can copy one file and publish a valid SaPP card within 10 minutes.
 - A derivative author can identify what changed, what stayed, and how to credit.
 - A non-GitHub user can understand SaPP from README alone.
-- An AI assistant can identify required fields, optional metadata, public range, non-public range, license, and canonical status without inferring them from prose.
+- An AI assistant can identify required fields, optional metadata, public range, non-public range, license, and canonical status from the canonical Skill Documents.
 
 ## Not Yet
 

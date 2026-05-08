@@ -1,5 +1,7 @@
 # Story / Film Module
 
+> Human-facing authoring aid. The canonical module specification is `spec/skills/modules/story-film.skill.md`.
+
 物語や映像としての方向性が必要なときに使うモジュールです。
 
 ## Theme

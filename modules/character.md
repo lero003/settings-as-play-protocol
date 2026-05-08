@@ -1,5 +1,7 @@
 # Character Module
 
+> Human-facing authoring aid. The canonical module specification is `spec/skills/modules/character.skill.md`.
+
 キャラクター固有の情報が必要なときに使うモジュールです。
 
 ## Appearance

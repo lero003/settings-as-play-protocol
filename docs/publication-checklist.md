@@ -6,13 +6,13 @@ Use this checklist for public-facing repository work that may not be part of a n
 
 - Date: 2026-05-08
 - Verified by: Hazakura Lab
-- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, docs CI
+- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first draft prep, docs CI
 
 ## GitHub About
 
 Recommended description:
 
-> A lightweight protocol for sharing character settings, worldbuilding, prompts, play rules, derivation, and credit in the AI creation era.
+> An AI-first specification format for sharing, validating, transforming, and extending creative settings.
 
 Recommended website:
 
@@ -25,10 +25,11 @@ Recommended topics:
 - character-design
 - creative-commons
 - prompting
-- markdown-template
+- ai-specification
 - commons
 - derivation
 - creative-protocol
+- markdown
 
 ## Release Tags
 
@@ -39,11 +40,19 @@ Current tags:
 - `v0.4-public-draft`
 - `v0.4.1-docs-polish`
 
+Next candidate:
+
+- `v0.5-ai-first-public-draft`
+
 Release notes should point to:
 
 - README
 - CHANGELOG
 - COMMONS_AGREEMENT
+- spec/skills/README.md
+- spec/skills/sapp-core.skill.md
+- spec/skills/sapp-validator.skill.md
+- spec/skills/sapp-derivation.skill.md
 - templates/sapp-core.md
 - templates/derivation-card.md
 - examples/minimal/one-screen-setting.md
@@ -53,6 +62,10 @@ Release notes should point to:
 Use this as a manual release-prep checklist. Checked items record the last verification above; re-check them before a new release.
 
 - [x] README explains what SaPP is and is not.
+- [x] README defines SaPP as an AI-first specification format.
+- [x] Canonical Skill Documents exist under `spec/skills/`.
+- [x] Templates and modules are marked as supporting human-facing materials.
+- [x] SaPP Validator Skill was smoke-checked against `examples/minimal/one-screen-setting.md`.
 - [x] Minimum SaPP Card is visible.
 - [x] Templates distinguish required, recommended, and optional fields.
 - [x] Derivation and credit examples are present.
@@ -64,6 +77,23 @@ Use this as a manual release-prep checklist. Checked items record the last verif
 - [x] `v0.4.1-docs-polish` GitHub Release exists.
 - [x] `git diff --check` passes.
 - [x] `python scripts/check-docs.py` passes.
+
+## v0.5 Release Readiness Decision
+
+Decision: ready to version as `v0.5-ai-first-public-draft` after the current documentation diff is committed and the release action is explicitly requested.
+
+Rationale:
+
+- v0.5 is a documentation and specification redefinition, not a binary or schema-contract release.
+- The canonical specification now lives under `spec/skills/`.
+- Supporting templates, modules, examples, and guides no longer claim to be the canonical source.
+- The minimal example smoke-checks as usable with only expected draft-level warnings for omitted recommended fields.
+- Optional JSON Schema or CLI validation can remain post-v0.5 follow-up work.
+
+Release boundary:
+
+- Do not move the existing `v0.4-public-draft` or `v0.4.1-docs-polish` tags.
+- Do not publish a GitHub Release until the user explicitly asks for that public action.
 
 ## Notes For AI Assistants
 

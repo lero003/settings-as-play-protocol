@@ -1,3 +1,7 @@
+# SaPP Credit Block
+
+> Authoring template. Canonical credit and derivation behavior is defined in `spec/skills/sapp-core.skill.md` and `spec/skills/sapp-derivation.skill.md`.
+
 ## Credit
 
 Based on: [Source Setting Name](https://example.com/source)

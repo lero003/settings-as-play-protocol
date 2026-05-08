@@ -1,5 +1,7 @@
 # Game Module
 
+> Human-facing authoring aid. The canonical module specification is `spec/skills/modules/game.skill.md`.
+
 インタラクティブなルールや反復できる遊びが必要なときに使うモジュールです。
 
 ## Player Role

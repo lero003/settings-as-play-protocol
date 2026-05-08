@@ -2,13 +2,15 @@
 
 SaPP is Markdown-first. Human-readable sections are the main format.
 
-For search, tooling, AI review, or derivation-map generation, a SaPP card may add YAML front matter. This metadata is optional and should not be required for a valid SaPP card.
+For search, tooling, AI review, validation, or derivation-map generation, a SaPP card may add YAML front matter. This metadata is optional and should not be required for a valid SaPP card.
+
+The canonical SaPP specification is defined in [SaPP Skill Documents](../spec/skills/README.md). Front matter is supporting metadata, not the canonical source.
 
 ## Example
 
 ```md
 ---
-sapp_version: "0.4"
+sapp_version: "0.5"
 card_type: "core"
 status: "draft"
 language: "ja"
@@ -45,6 +47,7 @@ non_public_range: "No private source material included"
 ## Notes For Tools And AI Assistants
 
 - Treat front matter as advisory metadata, not as a replacement for the visible card sections.
+- Treat Skill Documents as the canonical specification source.
 - Keep `status` for document lifecycle and `canonical_status` for official or setting-world position.
 - If metadata and visible sections disagree, ask for clarification or prefer the visible section until the author resolves the drift.
 - Do not infer legal permission from SaPP usage alone.

@@ -1,5 +1,7 @@
 # SaPP Core
 
+> Authoring template. The canonical SaPP Core specification is `spec/skills/sapp-core.skill.md`.
+
 ## 1. Name
 
 Required

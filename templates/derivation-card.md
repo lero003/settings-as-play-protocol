@@ -1,5 +1,7 @@
 # Derivation Card
 
+> Authoring template. The canonical derivation behavior is `spec/skills/sapp-derivation.skill.md`.
+
 ## Derived From
 
 <!-- 派生元の設定名、作者、リンク。 -->

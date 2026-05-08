@@ -1,6 +1,6 @@
 # 企画書 v0.4：Settings as Play Protocol
 
-> Publication note: この文書は SaPP v0.4 の元企画書です。現在のリポジトリ実体では、法的ライセンスを CC BY 4.0、文化的作法を SaPP Commons Agreement として分離しています。テンプレートは、SaPP 利用者に特定ライセンスを強制しない形へ調整されています。
+> Publication note: この文書は SaPP v0.4 の元企画書であり、現在の正本仕様ではありません。現在の SaPP は AI-first な仕様書フォーマットとして再定義され、正本仕様は `spec/skills/` の AI-readable Skill Documents に置かれています。法的ライセンスは CC BY 4.0、文化的作法は SaPP Commons Agreement として分離しています。テンプレートは、SaPP 利用者に特定ライセンスを強制しない形へ調整されています。
 
 **日本語仮称：設定で遊ぶプロトコル**
 **略称候補：SaPP / SAPP**

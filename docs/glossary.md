@@ -4,6 +4,14 @@
 
 The smallest useful description of what a setting is, what should stay stable, and what may change.
 
+## AI-first Specification Format
+
+A format designed so humans can write and audit it while AI assistants can read, validate, transform, and extend it.
+
+## Skill Document
+
+An AI-readable and human-auditable specification document that defines how an AI assistant should handle SaPP. The canonical SaPP Skill Documents live under `spec/skills/`.
+
 ## Core Rules
 
 Rules that preserve the identity of a setting. If they change, the result may become a different setting.
