@@ -35,7 +35,7 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 
 ## v0.5 AI-first Public Draft
 
-Status: released as [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft).
+Status: tagged as [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/tree/v0.5-ai-first-public-draft). A GitHub Release has not been created for this tag yet.
 
 ### AI-first Canonical Specification
 
