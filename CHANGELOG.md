@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Clarify post-v0.5 publication checklist state after tagging
+- Align main branch status wording after publishing the v0.5 GitHub Release
 
 ## v0.5 AI-first public draft - 2026-05-08
 

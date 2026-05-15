@@ -4,9 +4,9 @@ Use this checklist for public-facing repository work that may not be part of a n
 
 ## Last Verified
 
-- Date: 2026-05-08
+- Date: 2026-05-16
 - Verified by: Hazakura Lab
-- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first public draft tag, docs CI
+- Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first public draft release, docs CI
 
 ## GitHub About
 
@@ -72,12 +72,13 @@ Use this as a manual release-prep checklist. Checked items record the last verif
 - [x] GitHub About description, website, and topics are configured.
 - [x] `v0.4-public-draft` GitHub Release exists.
 - [x] `v0.4.1-docs-polish` GitHub Release exists.
+- [x] `v0.5-ai-first-public-draft` GitHub Release exists.
 - [x] `git diff --check` passes.
 - [x] `python scripts/check-docs.py` passes.
 
 ## v0.5 Release Readiness Decision
 
-Decision: `v0.5-ai-first-public-draft` is tagged and ready for an optional GitHub Release when explicitly requested.
+Decision: `v0.5-ai-first-public-draft` has been published as a GitHub Release.
 
 Rationale:
 
@@ -91,7 +92,7 @@ Release boundary:
 
 - Do not move the existing `v0.4-public-draft` or `v0.4.1-docs-polish` tags.
 - Do not move the existing `v0.5-ai-first-public-draft` tag.
-- Do not publish a GitHub Release unless the user explicitly asks for that public action.
+- Treat post-v0.5 follow-up work as main-branch cleanup unless a future patch release is explicitly requested.
 
 ## Notes For AI Assistants
 

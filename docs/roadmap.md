@@ -35,7 +35,7 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 
 ## v0.5 AI-first Public Draft
 
-Status: tagged as [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/tree/v0.5-ai-first-public-draft). A GitHub Release has not been created for this tag yet.
+Status: released as [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft).
 
 ### AI-first Canonical Specification
 
@@ -46,8 +46,8 @@ Status: tagged as [v0.5-ai-first-public-draft](https://github.com/lero003/settin
 - [x] Add canonical module Skill Documents
 - [x] Clarify that templates, examples, docs, schemas, and validators are supporting artifacts
 - [x] Smoke-check SaPP Validator Skill against `examples/minimal/one-screen-setting.md`
-- [ ] Validate the Skill Documents against real SaPP cards and derivation examples
-- [ ] Decide whether optional JSON Schema or a CLI validator is worth generating from the Skill Documents
+
+Follow-up validation and optional validator/schema decisions are tracked under `Next`.
 
 Done when:
 

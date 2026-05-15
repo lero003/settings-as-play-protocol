@@ -16,7 +16,7 @@ The canonical specification is defined as AI-readable Skill Documents. Human-fac
 
 ## ステータス
 
-- Latest GitHub Release: [v0.4.1-docs-polish](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.4.1-docs-polish)
+- Latest GitHub Release: [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft)
 - Latest public draft tag: [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/tree/v0.5-ai-first-public-draft)
 - Current main: post-v0.5 development
 - Next target: v0.5.x feedback polish or v0.6
