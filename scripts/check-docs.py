@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 
@@ -67,6 +68,19 @@ def check_front_matter_delimiters(path: Path, text: str, errors: list[str]) -> N
         errors.append(f"{path.relative_to(ROOT)}: missing closing front matter delimiter")
 
 
+def check_hidden_unicode(path: Path, text: str, errors: list[str]) -> None:
+    for index, character in enumerate(text):
+        if unicodedata.category(character) != "Cf":
+            continue
+        line = text.count("\n", 0, index) + 1
+        column = index - text.rfind("\n", 0, index)
+        codepoint = f"U+{ord(character):04X}"
+        name = unicodedata.name(character, "UNKNOWN FORMAT CHARACTER")
+        errors.append(
+            f"{path.relative_to(ROOT)}:{line}:{column}: hidden Unicode {codepoint} {name}"
+        )
+
+
 def main() -> int:
     errors: list[str] = []
     for path in iter_markdown_files():
@@ -76,6 +90,7 @@ def main() -> int:
         check_local_images(path, text, errors)
         check_heading_spacing(path, text, errors)
         check_front_matter_delimiters(path, text, errors)
+        check_hidden_unicode(path, text, errors)
 
     if errors:
         print("\n".join(errors))

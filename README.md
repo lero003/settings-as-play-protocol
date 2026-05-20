@@ -10,6 +10,10 @@ It is not a platform, marketplace, or legal license. It is a small format for ke
 
 The canonical specification is defined as AI-readable Skill Documents. Human-facing templates, examples, and guides are provided as supporting materials.
 
+Because SaPP documents are meant to be read by AI assistants, changes to
+skills, templates, modules, and examples should also be reviewed for malicious
+instructions, hidden Unicode, and misleading provenance or license guidance.
+
 > Platformではなく、Protocol。
 >
 > 完成品ではなく、派生可能な「設定の芯」を共有する。
