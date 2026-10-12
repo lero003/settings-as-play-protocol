@@ -41,7 +41,10 @@ For each issue, return:
 8. Detect unsupported assumptions that are not stated in the source document.
 9. Check public range, non-public range, legal permission, cultural agreement, and canonical status are not confused.
 10. Check module-specific constraints.
-11. Return a result and issue list.
+11. When revision tracking is present, check non-empty string values, `card_revision` with `card_id`, and `derived_from_revision` with an identified source. If the source snapshot is available, compare its stated revision and report a mismatch as an error. Do not confuse format version with card revision, or infer compatibility from a revision label alone.
+12. Return a result and issue list. Report an unavailable source snapshot as a warning that source comparison was not performed, not as evidence of a match or mismatch.
+
+Compact cards and grouped credit blocks are valid when the same required information is identifiable. Optional revision metadata, missing optional modules, and exceeding the one-screen authoring target do not by themselves make a card invalid. Do not ask authors to expand a usable card merely to match template headings.
 
 ## Core Field Checks
 
@@ -59,7 +62,7 @@ Warn if it is only a genre label, mood word, or medium name without a specific p
 
 ### Intent
 
-Warn if missing when the document is intended for generation, adaptation, or publication.
+Warn if missing and the intended creative use remains ambiguous for generation, adaptation, or publication. A clear compact card does not need a separate Intent section just to avoid a warning.
 
 Warn if it conflicts with Core Rules or module constraints.
 

@@ -2,6 +2,8 @@
 
 > Authoring template. The canonical SaPP Core specification is `spec/skills/sapp-core.skill.md`.
 
+> Expanded authoring aid. For a one-screen start, use [SaPP Mini](sapp-core-short.md). Optional revision tracking is described in [Front Matter](../docs/front-matter.md); it is not required to fill this template.
+
 ## 1. Name
 
 Required

@@ -33,6 +33,8 @@ A derivation should include:
 - Cultural Agreement
 - Credit Notes
 
+This information may be grouped in a compact credit block; separate headings are not required. Include optional source revision information when known, following [SaPP Core revision tracking](sapp-core.skill.md#optional-revision-tracking). A new derivative gets its own `card_id`; `derived_from_revision` continues to identify the source snapshot even after the source is updated.
+
 ## AI Derivation Procedure
 
 When asked to derive from a SaPP setting, an AI assistant should:
@@ -46,6 +48,7 @@ When asked to derive from a SaPP setting, an AI assistant should:
 7. Mark any Core Rule change as a new branch, alternate version, or incompatible derivative.
 8. Preserve source attribution.
 9. Produce a derivative card or updated SaPP document.
+10. Keep the result concise unless detail is requested. Record changes and retained rules without copying all source lore; retain necessary constraints in the derivative or its linked source snapshot.
 
 ## Compatibility Levels
 

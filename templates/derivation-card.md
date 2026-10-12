@@ -2,9 +2,11 @@
 
 > Authoring template. The canonical derivation behavior is `spec/skills/sapp-derivation.skill.md`.
 
+> Keep changes and retained rules short. Known source revisions may be recorded beside the source link or in [optional metadata](../docs/front-matter.md); do not copy the whole source setting.
+
 ## Derived From
 
-<!-- 派生元の設定名、作者、リンク。 -->
+<!-- 派生元の設定名、作者、固定リンク。版がわかる場合は Source Revision も添えます。 -->
 
 ## Derivation Type
 
@@ -43,6 +45,10 @@ Original by:
 Derived by:
 
 Legal License / Permission:
+
+Public Range:
+
+Non-public Range:
 
 Canonical Status:
 

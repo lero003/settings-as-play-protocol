@@ -2,7 +2,7 @@
 
 Thank you for your interest in Settings as Play Protocol.
 
-SaPP is currently preparing a **v0.5 AI-first public draft**. Names, fields, modules, examples, and operating style may change.
+SaPP is a **v0.6 public draft**. Names, fields, modules, examples, and operating style may change. Existing v0.5 cards remain valid.
 
 The canonical specification is defined in [SaPP Skill Documents](spec/skills/README.md). Templates, examples, and guides are supporting materials for authors and contributors.
 
@@ -30,6 +30,8 @@ Please make sure that:
 
 Small proposals are welcome. You do not need to submit a perfect specification.
 
+Prefer one-screen cards and compact credit blocks. Add optional revision metadata or modules only when useful; do not expand every example to fill every template heading.
+
 When suggesting changes, please describe:
 
 - What is confusing or missing
@@ -53,6 +55,20 @@ For examples, templates, and policy wording, check the relevant items before sub
 Examples merged into this repository should be compatible with the repository license, CC BY 4.0, unless a different license is explicitly discussed and clearly marked.
 
 If an example uses CC BY-NC, All rights reserved, 個別許諾, or another non-CC-BY permission, prefer linking to it as an external SaPP card rather than copying it into this repository.
+
+## Local Checks
+
+Use an isolated environment; the only check dependency is pinned in `requirements-dev.txt`:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python scripts/check-docs.py
+git diff --check
+```
+
+Checks cover documentation links/style, safe YAML structure, revision metadata, and the included OKF profile. They do not perform the advisory semantic or rights review defined by SaPP's Validator Skill.
 
 ## Legal Note
 

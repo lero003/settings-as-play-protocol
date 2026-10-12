@@ -11,3 +11,5 @@ id_rsa.pub
 .aws/
 .gcloud/
 .netrc
+__pycache__/
+.venv/

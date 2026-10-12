@@ -2,7 +2,17 @@
 
 ## Unreleased
 
-- Align main branch status wording after publishing the v0.5 GitHub Release
+No changes yet.
+
+## v0.6 portable settings public draft - 2026-10-13
+
+- Add optional card identity, card revision, and fixed source revision tracking; keep unversioned and v0.5 cards valid
+- Target a pinned OKF v0.2 specification snapshot in the optional bundle profile
+- Separate OKF `status` from SaPP `sapp_status`, preserving legacy plain-card `status`
+- Prefer one-screen authoring, optional detail, and compact credit blocks that retain reuse boundaries
+- Add short OKF and revision/derivation examples; remove repeated metadata from the bundle starter
+- Parse YAML safely and check revision/profile metadata with regression tests in docs CI
+- Align README, contributor checks, and roadmap with the new public draft
 
 ## v0.5 AI-first public draft - 2026-05-08
 

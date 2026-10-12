@@ -1,54 +1,54 @@
 # Optional Front Matter
 
-SaPP is Markdown-first. Human-readable sections are the main format.
+SaPP is Markdown-first. Visible sections carry the setting; YAML metadata is optional for an ordinary card. Add only the keys you need. The [canonical Core Skill](../spec/skills/sapp-core.skill.md) defines optional revision tracking.
 
-For search, tooling, AI review, validation, or derivation-map generation, a SaPP card may add YAML front matter. This metadata is optional and should not be required for a valid SaPP card.
+The [OKF v0.2 bundle profile](okf-template.md) requires parseable front matter with a non-empty `type` on concept documents. This requirement applies only to that profile.
 
-The canonical SaPP specification is defined in [SaPP Skill Documents](../spec/skills/README.md). Front matter is supporting metadata, not the canonical source.
+## Minimal Revision Example
 
-## Example
-
-```md
+```yaml
 ---
-sapp_version: "0.5"
-card_type: "core"
-status: "draft"
-language: "ja"
-name: "朝夜で変わる猫耳ちゃん"
-canonical_status: "public sample"
-license: "CC BY 4.0"
-cultural_agreement: "SaPP Commons Agreement"
-derived_from: null
-original_by: "Hazakura Lab / 葉桜ラボ"
-public_range: "SaPP sample"
-non_public_range: "No private source material included"
+sapp_version: "0.6"
+card_id: "hazakura-lab/rain-lighthouse"
+card_revision: "r2"
 ---
-
-# SaPP Core: 朝夜で変わる猫耳ちゃん
 ```
 
-## Suggested Keys
+`sapp_version` identifies the format; `card_revision` identifies this card's content. A name change preserves the same `card_id`. A new derivative gets a new ID. Revision labels are author-chosen strings, not globally ordered versions. No Git account, UUID, or central registry is required.
 
-| Key | Purpose |
+For a derivative, add only what is known:
+
+```yaml
+derived_from: "../versioned/lighthouse-r1.md"
+derived_from_revision: "r1"
+```
+
+Keep the source revision fixed when the original advances to r2. The visible Derived From field should link to the same snapshot. See the [r1 source](../examples/versioned/lighthouse-r1.md), [r2 source](../examples/versioned/lighthouse-r2.md), and [derivative that retains r1](../examples/versioned/lighthouse-derivative-r1.md).
+
+## Optional Keys
+
+| Key | Meaning |
 |---|---|
-| `sapp_version` | SaPP version used by this card |
-| `card_type` | `core`, `module`, `derivation`, `asset`, or another local type |
-| `status` | Document lifecycle: `draft`, `public-draft`, `released`, or `archived` |
-| `language` | Primary language of the card |
-| `name` | Setting or card name |
-| `canonical_status` | Setting-world position: `canonical`, `public sample`, `non-canonical visual reference`, `derivative`, `fan derivative`, or `experimental` |
-| `license` | Legal license or permission label |
-| `cultural_agreement` | Cultural credit agreement, if used |
-| `derived_from` | Source card or setting, if any |
-| `original_by` | Original creator or organization |
-| `public_range` | Reusable public range |
-| `non_public_range` | Material not included in public reuse |
+| `sapp_version` | Format version; old v0.5 cards remain valid |
+| `card_id` | Stable identity of this card; recommended author namespace |
+| `card_revision` | This card's revision; requires `card_id` |
+| `derived_from` | Identified source card, link, or setting |
+| `derived_from_revision` | Source revision; requires `derived_from` |
+| `card_type` | `core`, `module`, `derivation`, `asset`, or a local type |
+| `sapp_status` | SaPP document lifecycle: `draft`, `public-draft`, `released`, `archived` |
+| `language`, `name` | Primary language and human-readable name |
+| `canonical_status` | Position in the setting: e.g. `canonical`, `public sample`, `derivative`, `non-canonical visual reference` |
+| `original_by`, `license`, `cultural_agreement` | Authorship, legal permission, and cultural agreement; distinct facts |
+| `public_range`, `non_public_range` | Reusable range and excluded material |
 
-## Notes For Tools And AI Assistants
+Omit unused keys rather than filling a template with nulls. Quote revision values so YAML does not turn them into numbers. `card_revision` and `derived_from_revision` must be non-empty strings when present. For multiple sources, record each known revision beside its visible source link instead of squeezing them into one scalar.
 
-- Treat front matter as advisory metadata, not as a replacement for the visible card sections.
-- Treat Skill Documents as the canonical specification source.
-- Keep `status` for document lifecycle and `canonical_status` for official or setting-world position.
-- If metadata and visible sections disagree, ask for clarification or prefer the visible section until the author resolves the drift.
-- Do not infer legal permission from SaPP usage alone.
-- Do not treat `public sample` or `non-canonical visual reference` as a promise that hidden source material is reusable.
+## Reading And Compatibility
+
+- Metadata supports discovery and tooling; it does not replace visible Core or credit information.
+- If metadata and visible text disagree, report the conflict and resolve it before reuse; do not silently merge permission claims.
+- `canonical_status`, document lifecycle, and permission are separate. None proves either of the others.
+- Preserve unknown metadata when copying or updating a card.
+- Outside OKF bundles, legacy SaPP `status` remains accepted as a lifecycle alias. New cards should use `sapp_status`; conflicting legacy/new values need correction.
+- In OKF v0.2 bundles, `status` belongs to OKF (`draft`, `stable`, `deprecated`). SaPP lifecycle uses `sapp_status`. The [profile mapping](okf-template.md#lifecycle-mapping) explains their independent meanings.
+- Missing IDs or revisions do not invalidate an old card. Never manufacture source revisions or infer permission from metadata alone.

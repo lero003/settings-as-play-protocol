@@ -20,10 +20,10 @@ instructions, hidden Unicode, and misleading provenance or license guidance.
 
 ## ステータス
 
-- Latest GitHub Release: [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.5-ai-first-public-draft)
-- Latest public draft tag: [v0.5-ai-first-public-draft](https://github.com/lero003/settings-as-play-protocol/tree/v0.5-ai-first-public-draft)
-- Current main: post-v0.5 development
-- Next target: v0.5.x feedback polish or v0.6
+- Latest GitHub Release: [v0.6-portable-settings-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.6-portable-settings-public-draft)
+- Latest public draft tag: [v0.6-portable-settings-public-draft](https://github.com/lero003/settings-as-play-protocol/tree/v0.6-portable-settings-public-draft)
+- Current main: v0.6 public draft — optional revision tracking, OKF v0.2 profile, concise authoring
+- Compatibility: 既存の v0.5 カードと、改訂情報のないカードも引き続き使えます
 - Scope: AI-readable Skill Documents、テンプレート、小さな作例
 - Stability: 名称、項目、モジュール、運用形式は変更される可能性があります
 - License: [CC BY 4.0](LICENSE.md)
@@ -31,12 +31,12 @@ instructions, hidden Unicode, and misleading provenance or license guidance.
 
 ## 3分で始める
 
-1. [SaPP Core](templates/sapp-core.md) をコピーします。
-2. まず Name、One-liner、Core Rules、Variables だけ埋めます。
+1. [SaPP Mini](templates/sapp-core-short.md) をコピーします。
+2. Name、One-liner、Core Rules、Variables を一画面程度にまとめます。ルールと変数は各3項目が目安です。
 3. 下書きでは Credit はあとから足せます。
 4. 公開・派生・再配布する前に、Derivation & Credit を確認します。
 
-SaPP は完成資料ではなく、育てられる設定メモから始められます。
+必要なときだけ Intent、Context、モジュールや改訂情報を足します。公開時の作者・由来・許諾・公開範囲・除外範囲・正史扱いも、一つの短い Credit ブロックにまとめられます。
 
 SaPP の正本仕様を確認したい場合は、[SaPP Skill Documents](spec/skills/README.md) を読んでください。
 
@@ -44,15 +44,22 @@ SaPP の正本仕様を確認したい場合は、[SaPP Skill Documents](spec/sk
 
 ### 自分の設定をSaPP化したい人
 
-1. [SaPP Core Template](templates/sapp-core.md)
-2. [Example: Minimal SaPP Core](examples/minimal/one-screen-setting.md)
-3. [Credit Block Template](templates/credit-block.md)
+1. [SaPP Mini Template](templates/sapp-core-short.md) — 短く始める
+2. [SaPP Core Template](templates/sapp-core.md) — 詳細を分けて書く
+3. [Example: One-screen OKF card](examples/okf/setting.md)
+4. [Credit Block Template](templates/credit-block.md)
 
 ### AI assistant や実装者に SaPP を読ませたい人
 
 1. [SaPP Skill Documents](spec/skills/README.md)
 2. [SaPP Core Skill](spec/skills/sapp-core.skill.md)
 3. [SaPP Validator Skill](spec/skills/sapp-validator.skill.md)
+
+### OKF bundleとして試したい人
+
+1. [OKF-compatible SaPP Template](templates/sapp-okf/index.md)
+2. [OKF v0.2 Profile Guide](docs/okf-template.md)
+3. [SaPP Core Skill](spec/skills/sapp-core.skill.md)
 
 ### 既存設定から派生を作りたい人
 
@@ -105,7 +112,7 @@ SaPP が目指すのは、共有してよいもの、派生を歓迎するもの
 
 ## 使い方
 
-1. [SaPP Core](templates/sapp-core.md) をコピーします。
+1. [SaPP Mini](templates/sapp-core-short.md) をコピーします。
 2. 必要な項目だけ埋めます。初期案では空欄があっても構いません。
 3. 追加情報が必要なときだけ Optional Module を足します。
 4. 派生設定を作る場合は [Derivation Card](templates/derivation-card.md) を使います。
@@ -133,6 +140,8 @@ SaPP Core は7項目です。
 
 - **Core Rules** は設定らしさを守ります。
 - **Variables** は派生の余白を作ります。
+
+設定の改訂を追いたい場合だけ、`card_id`、`card_revision`、`derived_from_revision` を追加できます。SaPP形式の版と設定内容の版は別です。[Optional Front Matter](docs/front-matter.md) と [r1 → r2 / 派生の作例](examples/versioned/lighthouse-derivative-r1.md) を参照してください。
 
 ## Minimum SaPP Card
 
@@ -175,11 +184,13 @@ SaPP Core を太らせず、用途別の詳細は必要な分だけ足します�
 - [Derivation Map](docs/derivation-map.md)
 - [License / Permission Guide](docs/license-permission-guide.md)
 - [Optional Front Matter](docs/front-matter.md)
+- [OKF v0.2 Profile Guide](docs/okf-template.md)
 - [Glossary](docs/glossary.md)
 - [Publication Checklist](docs/publication-checklist.md)
 - [Related Work](docs/related-work.md)
 - [SaPP Core Template](templates/sapp-core.md)
 - [SaPP Mini Template](templates/sapp-core-short.md)
+- [OKF-compatible SaPP Template](templates/sapp-okf/index.md)
 - [Derivation Card Template](templates/derivation-card.md)
 - [Credit Block Template](templates/credit-block.md)
 - [Example: Minimal SaPP Core](examples/minimal/one-screen-setting.md)

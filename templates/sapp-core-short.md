@@ -2,6 +2,8 @@
 
 > Authoring template. The canonical SaPP Core specification is `spec/skills/sapp-core.skill.md`.
 
+<!-- まず一画面程度。Core Rules / Variables は各3項目を目安に、詳細と改訂情報は必要なときだけ足します。 -->
+
 Name:
 
 One-liner:
@@ -16,7 +18,7 @@ Variables:
 
 Credit / Permission:
 
-<!-- 公開・派生・再配布する場合は、必要に応じて Legal License / Permission と Public Range も書きます。 -->
+<!-- 公開・派生・再配布時は、作者 / 派生元 / 法的許諾 / 公開・除外範囲 / 正史扱い / クレジットをまとめます。短くしても必要な境界は残します。 -->
 
 ## Tiny Paste Format
 

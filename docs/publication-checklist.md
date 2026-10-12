@@ -40,6 +40,7 @@ Current tags:
 - `v0.4-public-draft`
 - `v0.4.1-docs-polish`
 - `v0.5-ai-first-public-draft`
+- `v0.6-portable-settings-public-draft`
 
 Release notes should point to:
 
@@ -93,6 +94,18 @@ Release boundary:
 - Do not move the existing `v0.4-public-draft` or `v0.4.1-docs-polish` tags.
 - Do not move the existing `v0.5-ai-first-public-draft` tag.
 - Treat post-v0.5 follow-up work as main-branch cleanup unless a future patch release is explicitly requested.
+
+## v0.6 Verification And Publication Record
+
+- Date: 2026-10-13
+- Release: [v0.6 portable settings public draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.6-portable-settings-public-draft), marked as a prerelease
+- Local checks: 15 metadata regression tests, `python scripts/check-docs.py`, and `git diff --check`
+- Source check: [OKF v0.2 snapshot and SHA-256](okf-template.md#pinned-reference)
+- Reviewed examples: the compact OKF card and r1 / r2 / derivative cards retaining the r1 source
+- Release gate: Docs CI must pass on the commit selected for the tag
+- Boundary: no full semantic, legal, multi-model, or independent-consumer validation is claimed
+
+Previous public tags remain immutable. The GitHub About/topics verification above remains the May record; this release does not reverify those settings.
 
 ## Notes For AI Assistants
 

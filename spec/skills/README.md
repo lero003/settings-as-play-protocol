@@ -2,6 +2,8 @@
 
 This directory is the canonical specification source for Settings as Play Protocol.
 
+Current public draft: SaPP v0.6. Revision tracking is optional, and v0.5 / unversioned cards remain valid. Start with a compact card; add detail only when needed.
+
 SaPP Skill Documents are AI-readable and human-auditable specification documents. They define how an AI assistant should read, validate, transform, and extend SaPP settings while keeping the format understandable to human authors.
 
 ## Canonical Documents

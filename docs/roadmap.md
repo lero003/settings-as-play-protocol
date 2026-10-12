@@ -31,6 +31,8 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 - Validate the Skill Documents against real SaPP cards and derivation examples
 - Decide whether optional JSON Schema or a CLI validator is worth generating from the Skill Documents
 - Review optional front matter after a few real cards use it
+- Compare concise cards and expanded modules in actual generation/derivation use; collect cases where brevity loses necessary constraints
+- Try copied OKF v0.2 bundles with independent consumers before making broader compatibility claims
 - Keep released tags immutable
 
 ## v0.5 AI-first Public Draft
@@ -74,6 +76,27 @@ Done when:
 - A derivative author can identify what changed, what stayed, and how to credit.
 - A non-GitHub user can understand SaPP from README alone.
 - An AI assistant can identify required fields, optional metadata, public range, non-public range, license, and canonical status from the canonical Skill Documents.
+
+## v0.6 Portable Settings Public Draft
+
+Status: published as [v0.6-portable-settings-public-draft](https://github.com/lero003/settings-as-play-protocol/releases/tag/v0.6-portable-settings-public-draft). The optional OKF profile remains a public-draft interoperability aid.
+
+- [x] Define optional card ID, card revision, and fixed source revision tracking
+- [x] Preserve compatibility with v0.5 and unversioned cards
+- [x] Target a pinned OKF v0.2 specification snapshot in a copyable bundle template
+- [x] Map OKF structure to SaPP Core without replacing the canonical Skill Documents
+- [x] Separate OKF status from SaPP lifecycle and document the v0.1 migration
+- [x] Keep standard SaPP front matter optional outside the OKF bundle profile
+- [x] Prefer one-screen cards, optional detail, and compact credit blocks
+- [x] Add short revision and OKF examples
+- [x] Verify YAML / metadata behavior with regression tests and documentation checks
+- [x] Document format, permission, and version boundaries
+
+Verification scope:
+
+- Local and CI checks cover documentation, YAML, and the supported revision/profile metadata structures.
+- Advisory semantic review, real multi-model creative use, and independent consumer integration are separate follow-ups under `Next`.
+- No stable SaPP or future OKF compatibility promise is made by this release.
 
 ## Not Yet
 

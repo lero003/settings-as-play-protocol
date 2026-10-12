@@ -21,6 +21,8 @@ Original Setting
 - What stayed
 - Credit link
 
+When available, label each node with its own `card_id` / `card_revision` and each source edge with the source revision. Keep a derivative's source snapshot fixed when the source later changes. [The revision samples](../examples/versioned/lighthouse-derivative-r1.md) show a derivative of r1 alongside the same source card's r2. Revision tracking remains optional.
+
 ## Mermaid Example
 
 ```mermaid
