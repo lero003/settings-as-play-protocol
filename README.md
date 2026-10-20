@@ -6,7 +6,7 @@ Settings as Play Protocol, or SaPP, is an AI-first specification format for crea
 
 It is designed for humans and AI assistants to share, validate, transform, and extend creative settings through structured Markdown documents.
 
-It is not a platform, marketplace, or legal license. It is a small format for keeping what should stay, what may change, and where a setting came from.
+It is not a platform, marketplace, or legal license. It is a small format for keeping what should stay, what may change, and where a setting came from — and for disagreeing about those things precisely.
 
 The canonical specification is defined as AI-readable Skill Documents. Human-facing templates, examples, and guides are provided as supporting materials.
 
@@ -17,6 +17,16 @@ instructions, hidden Unicode, and misleading provenance or license guidance.
 > Platformではなく、Protocol。
 >
 > 完成品ではなく、派生可能な「設定の芯」を共有する。
+
+## 中心にある考え
+
+SaPP は、設定を「固定された正解」でも「自由に使える素材」でもなく、**守ると決めた約束（Core Rules）と、開いておく余白（Variables）の組**として扱います。
+
+この二つを分けると、派生は「盗用か変奏か」の審判ではなく、「どの約束を守り、何を変えたか」の会話になります。AI には生成の安定した制約と探索範囲を、人間には同意と不同意の対象を渡す。それが SaPP の小さな賭けです。
+
+ここでいう **Play** は、ゲームに限りません。設定を使って想像する、生成する、演じる、書く、描く、誰かに渡す。その試みを、別の場所でも続けられるようにするための形式です。
+
+詳しくは [SaPP の哲学](docs/philosophy.md) を読んでください。
 
 ## ステータス
 
@@ -41,6 +51,12 @@ instructions, hidden Unicode, and misleading provenance or license guidance.
 SaPP の正本仕様を確認したい場合は、[SaPP Skill Documents](spec/skills/README.md) を読んでください。
 
 ## どこから読むか
+
+### まず SaPP の考え方を知りたい人
+
+1. [Manifesto](MANIFESTO.md) — 思想を短く
+2. [SaPP の哲学](docs/philosophy.md) — 約束と余白、失敗しやすいところ
+3. [Commons Agreement](COMMONS_AGREEMENT.md) — 派生の作法
 
 ### 自分の設定をSaPP化したい人
 
@@ -75,9 +91,10 @@ SaPP の正本仕様を確認したい場合は、[SaPP Skill Documents](spec/sk
 
 ### SaPP自体に貢献したい人
 
-1. [Contributing](CONTRIBUTING.md)
-2. [Roadmap](docs/roadmap.md)
-3. [Related Work](docs/related-work.md)
+1. [SaPP の哲学](docs/philosophy.md)
+2. [Contributing](CONTRIBUTING.md)
+3. [Roadmap](docs/roadmap.md)
+4. [Related Work](docs/related-work.md)
 
 ## Why SaPP? / なぜ SaPP か
 
@@ -141,6 +158,8 @@ SaPP Core は7項目です。
 - **Core Rules** は設定らしさを守ります。
 - **Variables** は派生の余白を作ります。
 
+Core Rules は、設定の奥に隠れた客観的な本質ではなく、著者が「この用途ではここを守る」と宣言する互換性条件です。だからこそ、何を核にしたかを書いておくことが、派生する側への贈り物になります。
+
 設定の改訂を追いたい場合だけ、`card_id`、`card_revision`、`derived_from_revision` を追加できます。SaPP形式の版と設定内容の版は別です。[Optional Front Matter](docs/front-matter.md) と [r1 → r2 / 派生の作例](examples/versioned/lighthouse-derivative-r1.md) を参照してください。
 
 ## Minimum SaPP Card
@@ -175,6 +194,7 @@ SaPP Core を太らせず、用途別の詳細は必要な分だけ足します�
 - [SaPP Validator Skill](spec/skills/sapp-validator.skill.md)
 - [SaPP Derivation Skill](spec/skills/sapp-derivation.skill.md)
 - [Manifesto](MANIFESTO.md)
+- [SaPP の哲学](docs/philosophy.md)
 - [Commons Agreement](COMMONS_AGREEMENT.md)
 - [License](LICENSE.md)
 - [Contributing](CONTRIBUTING.md)
@@ -203,7 +223,7 @@ SaPP Core を太らせず、用途別の詳細は必要な分だけ足します�
 
 ## Commons Agreement
 
-SaPP は、敬意ある派生・改変・再解釈を歓迎します。同時に、由来を消さないことを大切にします。
+SaPP は、カードが示す範囲で、敬意ある派生・改変・再解釈を歓迎します。同時に、由来を消さないことを大切にします。
 
 [Commons Agreement](COMMONS_AGREEMENT.md) は文化的な合意文であり、法的ライセンスではありません。このリポジトリの公開物は、特記がない限り [CC BY 4.0](LICENSE.md) で提供します。
 

@@ -32,6 +32,7 @@ Status: released as [v0.4.1-docs-polish](https://github.com/lero003/settings-as-
 - Decide whether optional JSON Schema or a CLI validator is worth generating from the Skill Documents
 - Review optional front matter after a few real cards use it
 - Compare concise cards and expanded modules in actual generation/derivation use; collect cases where brevity loses necessary constraints
+- Test the philosophy and failure-mode vocabulary with readers who have not used SaPP
 - Try copied OKF v0.2 bundles with independent consumers before making broader compatibility claims
 - Keep released tags immutable
 

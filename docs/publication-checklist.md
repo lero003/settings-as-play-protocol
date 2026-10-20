@@ -8,6 +8,13 @@ Use this checklist for public-facing repository work that may not be part of a n
 - Verified by: Hazakura Lab
 - Scope: GitHub About, topics, v0.4 public draft release, v0.4.1 docs polish release, v0.5 AI-first public draft release, docs CI
 
+## Philosophy / Permission Review
+
+- Date: 2026-10-21
+- Reviewed by: AI-assisted repository review
+- Scope: manifesto, philosophy note, Commons Agreement, core and validator instruction boundary
+- Result: attribution, permission, and canonical status are described as separate facts; reader-directed instructions are distinguished from in-world rules
+
 ## GitHub About
 
 Recommended description:
@@ -46,6 +53,8 @@ Release notes should point to:
 
 - README
 - CHANGELOG
+- MANIFESTO
+- docs/philosophy.md
 - COMMONS_AGREEMENT
 - spec/skills/README.md
 - spec/skills/sapp-core.skill.md
@@ -61,6 +70,7 @@ Use this as a manual release-prep checklist. Checked items record the last verif
 
 - [x] README explains what SaPP is and is not.
 - [x] README defines SaPP as an AI-first specification format.
+- [x] Manifesto and philosophy separate attribution from permission; philosophy also separates canonical status.
 - [x] Canonical Skill Documents exist under `spec/skills/`.
 - [x] Templates and modules are marked as supporting human-facing materials.
 - [x] SaPP Validator Skill was smoke-checked against `examples/minimal/one-screen-setting.md`.

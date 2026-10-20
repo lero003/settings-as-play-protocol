@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-No changes yet.
+- Clarify that derivation is welcomed only within each card's stated permission, and that credit is not a substitute for permission
+- Add a philosophy guide covering declared Core Rules, the core/variable tests, three separations, and common failure modes
+- Add instruction-boundary guidance for AI readers, validator checks for reader-directed instructions, and card-consumer security notes
+- Explain how to choose Core Rules and Variables; strengthen the core/variable example and glossary
+- Remove misleading field numbers from the minimal example
 
 ## v0.6 portable settings public draft - 2026-10-13
 

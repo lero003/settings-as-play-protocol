@@ -1,22 +1,22 @@
 # Minimal SaPP Core: 雨の日だけ歌う灯台
 
-This is a tiny SaPP Core draft. It only fills the fields needed to start.
+This is a tiny SaPP Core draft. It uses the four minimum fields plus a compact credit block, and omits Intent and Context on purpose. Section numbers are omitted because they are not part of the format.
 
-## 1. Name
+## Name
 
 雨の日だけ歌う灯台
 
-## 2. One-liner
+## One-liner
 
 雨の日だけ、海に向かって古い歌を流す灯台の設定。
 
-## 5. Core Rules
+## Core Rules
 
 - 灯台は雨の日だけ歌う
 - 歌は誰かを呼ぶためではなく、何かを忘れないために流れる
 - 海辺の町の人々は、その歌を少し怖がりながら受け入れている
 
-## 6. Variables
+## Variables
 
 - 歌の由来
 - 灯台がある町
@@ -25,7 +25,7 @@ This is a tiny SaPP Core draft. It only fills the fields needed to start.
 - 歌が聞こえる範囲
 - 画像、短編、ゲーム導入、音声作品などの媒体
 
-## 7. Derivation & Credit
+## Derivation & Credit
 
 ### Derived From
 

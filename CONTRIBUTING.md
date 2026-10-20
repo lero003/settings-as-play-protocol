@@ -25,6 +25,7 @@ Please make sure that:
 - Source names and links are kept when possible
 - Legal license and cultural agreement are separated
 - AI-generated assets are marked as non-canonical unless they are intended to be canonical
+- No reader-directed instructions, hidden text, or prompt-injection payloads are included. See [Security Policy](SECURITY.md).
 
 ## Contribution Style
 
@@ -47,6 +48,7 @@ For examples, templates, and policy wording, check the relevant items before sub
 - Non-public Range is clear.
 - Original source and author are credited where practical.
 - Legal License / Permission is written.
+- Credit is not presented as a substitute for legal permission.
 - Cultural Agreement is not confused with legal license.
 - AI-generated assets are marked as canonical or non-canonical.
 

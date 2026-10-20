@@ -28,6 +28,7 @@ It is not a competitive analysis yet. The goal is to notice useful differences a
 - SaPP is not a posting platform.
 - SaPP is not a prompt marketplace.
 - SaPP focuses on setting cores, derivation, and credit continuity.
+- SaPP's main difference is not the file format but the explicit split between Core Rules and Variables.
 - Existing platforms may host SaPP cards without needing to become SaPP-specific platforms.
 
 ## Next
